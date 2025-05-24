@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: chat-discord-mejorado
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    repo: https://github.com/tu-usuario/chat-discord-mejorado

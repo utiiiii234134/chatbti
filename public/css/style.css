@@ -1,0 +1,6 @@
+body { font-family: sans-serif; background: #1e1e2f; color: white; margin: 0; padding: 0; }
+#messages { list-style: none; padding: 0; max-height: 300px; overflow-y: scroll; }
+#messages li { padding: 5px 10px; }
+form { display: flex; gap: 5px; margin-top: 10px; }
+input[type="text"] { flex: 1; padding: 10px; }
+.stickers img { width: 40px; cursor: pointer; }
